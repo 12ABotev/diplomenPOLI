@@ -1,0 +1,84 @@
+nav {
+    flex: 1; 
+}
+
+nav ul.main {
+    display: flex;
+    justify-content: center; 
+    list-style-type: none;
+    padding: 0px;
+    margin: 0;
+    gap: 200px; 
+    border: 2%;
+
+}
+
+nav ul.main a {
+    text-decoration: none;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+}
+
+.buttons {
+    padding: 5px 10px;
+    font-size: 10px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    background-color: #f5d1ec;
+    border: none;
+    border-radius: 15px;
+}
+  
+  .buttons:hover {
+    background-color: #cc27ff;
+    transition: ease-in 0.3s;
+}
+
+.second_section{
+	display: flex;
+	margin-left: 180px;
+	padding-top: 15px;
+}
+
+.thirth_section{
+	display: flex;
+	margin-left: 180px;
+}
+
+div.gallery {
+    margin: 50px;
+    border: 1px solid #ccc;
+  /*  float: left;*/  
+  width: 400px;
+  
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  div.gallery #img_metodologia{
+      height: 160px;
+  }
+  div.gallery #img_active{
+      height: 220px;
+  }
+  div.gallery #img_factory{
+      height: 160px;
+  }
+  div.gallery #img_obekti{
+      height: 220px;
+  }
+   div.desc {
+    padding: auto;
+    text-align: center;
+    padding: 10px;
+  }
+  h4{
+      text-align: center;
+  }

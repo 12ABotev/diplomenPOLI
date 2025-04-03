@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css.contacts.css">
+	<title>Контакти</title>
+</head>
+<body>
+	<!-- Създавам секция, съдържаща навигация и лого -->
+    <header>
+        <div class="header-container">
+            <nav>
+                <ul class="main">
+                    <img src="logo.jpg" id="logo" width="100 " height="100">
+                    <button class="buttons"><a href="index.html">Начало</a></li></button>
+                    <button class="buttons"><a href="Grafiki.html">Графики</a></li></button>
+                    <button class="buttons"><a href="contacts.html">Контакти</a></button>
+                    <button class="buttons"><a href="author.html">Автор на сайта</a></button>
+                </ul>
+            </nav>
+        </div>
+    </header>
+<!-- Създаване на контактна форма-->
+    <div class="contact_container">
+    	<form action="https://api.web3forms.com/submit" method="POST" class="contact_left">
+                    
+        <div class="contact_left_title">
+            <h2>За връзка с нас</h2>
+            <hr>
+            <p>СУ „Христо Ботев” <br>
+            ПК 2050 гр. Ихтиман, община Ихтиман,<br>
+            Софийска област, ул. „Цар Освободител” № 76</p>
+            <p>Телефон: 0893615050</p>
+        </div>
+        
+            <input type="hidden" name="access_key" value="b4333fca-1eea-4983-a43d-211b0a74c4d0">
+    		<input type="text" name="name" placeholder="Име" class="contact_inputs" required>
+    		<input type="text" name="family_name" placeholder="Фамилия" class="contact_inputs"required>
+    		<input type="text" name="email" placeholder="Имейл" class="contact_inputs" required>
+    		<textarea name="message" placeholder="Вашите съобщения" class="contact_inputs"></textarea>
+    		<button type="submit">Изпрати</button>
+    	</form>
+
+
+    	<div class="contact_right">
+    		<img src="contacts picture.webp">
+    	</div>
+    </div>
+  
+</body>
+</html>
